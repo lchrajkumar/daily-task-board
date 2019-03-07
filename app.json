@@ -1,0 +1,28 @@
+{
+	"expo": {
+		"name": "todos-app",
+		"description": "Todo List Application for Minimalists.",
+		"slug": "todos-app",
+		"privacy": "public",
+		"sdkVersion": "30.0.0",
+		"platforms": ["ios", "android"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#f4e4e2"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"androidStatusBar": {
+			"backgroundColor": "#f18a69"
+		}
+	}
+}
